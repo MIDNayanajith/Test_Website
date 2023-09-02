@@ -45,3 +45,27 @@ ul{
 a{
     text-decoration: none;
 }
+
+/* about us */
+
+.about{
+
+    background-color: #0a2640;
+    color: #fff;
+    height: 600px;
+    padding: 4rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    opacity: 0.5;
+}
