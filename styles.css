@@ -69,3 +69,65 @@ h1{
 p{
     opacity: 0.5;
 }
+
+/* hero - images */
+
+.grid_items{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 2rem;
+    position: absolute; 
+    top: 550px;
+    width: 50%;
+    justify-content: center;
+   
+}
+
+.grid_items> :nth-child(2){
+
+    grid-row: span 2;
+}
+
+.hero_images{
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+/* our_story */
+
+.our_story{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 600px;
+    padding: 0 5rem;
+    gap: 2rem; */
+}
+
+.button_set{
+
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    
+}
+
+button{
+
+    padding: 15px 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: #65e4a3;
+    font-size: 20px;
+    
+}
+
+.button2{
+
+    background-color: #fff;
+    border: 2px solid black ;
+}
