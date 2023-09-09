@@ -218,7 +218,38 @@ button{
     border-radius: 20px;
 }
 
- 
+ /* footer */
 
+ footer{
 
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 4rem;
+    justify-content: space-between;
+    padding: 0 8rem;
+ }
+
+ .footer-left{
+
+    width: 30%;
+ }
+
+ .footer-para{
+
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    
+ }
+
+ .footer-right{
+
+    display: flex;
+    flex-direction: row;
+    gap:  10rem;
+ }
+
+ .footer-data{
+    margin-top: 2rem;
+    gap: 5rem;
+ }
 
